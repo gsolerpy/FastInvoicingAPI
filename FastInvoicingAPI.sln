@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastInvoicingAPI", "FastInvoicingAPI\FastInvoicingAPI.csproj", "{81BAE853-C7A4-4DBD-87A7-5B712C89AE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastInvoicingAPI.Tests", "FastInvoicingAPI.Tests\FastInvoicingAPI.Tests.csproj", "{628508FF-4B09-41FE-AB6F-EA980E3F68A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81BAE853-C7A4-4DBD-87A7-5B712C89AE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BAE853-C7A4-4DBD-87A7-5B712C89AE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BAE853-C7A4-4DBD-87A7-5B712C89AE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BAE853-C7A4-4DBD-87A7-5B712C89AE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628508FF-4B09-41FE-AB6F-EA980E3F68A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628508FF-4B09-41FE-AB6F-EA980E3F68A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628508FF-4B09-41FE-AB6F-EA980E3F68A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628508FF-4B09-41FE-AB6F-EA980E3F68A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01ABBF38-0531-4814-A1CD-52FB59B07164}
+	EndGlobalSection
+EndGlobal
