@@ -31,9 +31,20 @@ namespace FastInvoicingAPI.Models
         /// Tipo de venta Contado=> CO, 
         /// </summary>
         public string TipoVenta { get; set; }
+
+        /// <summary>
+        /// Ruc del cliente
+        /// </summary>
         public string Ruc { get; set; }
+
+        /// <summary>
+        /// Razon social del cliente
+        /// </summary>
         public string Cliente { get; set; }
 
+        /// <summary>
+        /// Colección detalle
+        /// </summary>
         public ICollection<FacturaDetalle> Detalle { get; set; }
     }
 }
