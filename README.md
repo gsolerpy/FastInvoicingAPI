@@ -1,14 +1,14 @@
 # FastInvoicingAPI
 
-One Paragraph of project description goes here
+Proyecto de ejemplo de API simple con ASPNET Web API y SQL Server con EntityFramework CodeFirst
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+El proyecto Visual Studio esta en la rama Testing
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Visual Studio 2017 y SQL Server LocalDB
 
 ```
 Give examples
