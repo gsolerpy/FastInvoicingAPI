@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "c166d0f0-30b8-4a5e-adf5-ad18f744ff97",
+		"name": "TestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ObtenerFacturas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "fastinvoicing.azurewebsites.net/api/Facturas/?id=1",
+					"host": [
+						"fastinvoicing",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Facturas",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertarNuevaVenta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"IdFactura\": 1,\r\n  \"NroFactura\": 2,\r\n  \"Fecha\": \"2018-06-07T02:39:10.964906+00:00\",\r\n  \"TipoVenta\": \"sample string 4\",\r\n  \"Ruc\": \"sample string 5\",\r\n  \"Cliente\": \"sample string 6\",\r\n  \"Detalle\": [\r\n    {\r\n      \"IdFacturaDetalle\": 1,\r\n      \"Cantidad\": 2,\r\n      \"Detalle\": \"sample string 3\",\r\n      \"PrecionUnitario\": 4.0,\r\n      \"Total\": 5.0\r\n    },\r\n    {\r\n      \"IdFacturaDetalle\": 1,\r\n      \"Cantidad\": 2,\r\n      \"Detalle\": \"sample string 3\",\r\n      \"PrecionUnitario\": 4.0,\r\n      \"Total\": 5.0\r\n    }\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "fastinvoicing.azurewebsites.net/api/Facturas",
+					"host": [
+						"fastinvoicing",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Facturas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarVenta",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"IdFactura\": 1,\r\n  \"NroFactura\": 2000,\r\n  \"Fecha\": \"2018-06-07T02:43:42.3704612+00:00\",\r\n  \"TipoVenta\": \"sample string 4\",\r\n  \"Ruc\": \"sample string 5\",\r\n  \"Cliente\": \"sample string 6\",\r\n  \"Detalle\": [\r\n    {\r\n      \"IdFacturaDetalle\": 1,\r\n      \"Cantidad\": 2,\r\n      \"Detalle\": \"sample string 3\",\r\n      \"PrecionUnitario\": 4.0,\r\n      \"Total\": 5.0\r\n    },\r\n    {\r\n      \"IdFacturaDetalle\": 1,\r\n      \"Cantidad\": 2,\r\n      \"Detalle\": \"sample string 3\",\r\n      \"PrecionUnitario\": 4.0,\r\n      \"Total\": 5.0\r\n    }\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "fastinvoicing.azurewebsites.net/api/Facturas/?id=2",
+					"host": [
+						"fastinvoicing",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Facturas",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarFactura",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:48610/api/Facturas?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "48610",
+					"path": [
+						"api",
+						"Facturas"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "41f23f84-2a6e-4312-8322-b449f8337e81",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "995503d4-7b29-45f7-8f27-c502a3a9b234",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
