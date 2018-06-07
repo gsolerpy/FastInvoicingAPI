@@ -4,38 +4,19 @@ Proyecto de ejemplo de API simple con ASPNET Web API y SQL Server con EntityFram
 
 ## Getting Started
 
-El proyecto Visual Studio esta en la rama Testing
+El proyecto Visual Studio esta en la rama Testing, una vez descargado el proyecto se debe restaurar los paquetes nuget haciedo click derecho en la solucion => Restaurar paquetes Nuget.
 
 ### Prerequisites
 
 Visual Studio 2017 y SQL Server LocalDB
 
 ```
-Give examples
+API publicada en el siguiente sitio con su ayuda en: http://fastinvoicing.azurewebsites.net/Help 
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
+Para ejecutar las pruebas en el cliente Postman se puede importar el archivo TestAPI.postman_collection.json
 
 ## Authors
 
